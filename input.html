@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+
+ input:focus{
+     font-weight: 700px;
+     font-size: 10px;
+     background-color: cadetblue;
+ }
+
+ li:nth-child(2n+1) {
+     background-color: hotpink;
+ }
+a:visited{
+    color: blue;
+}
+.special-effect:hover{
+    color: blueviolet;
+    font-size: 40px;
+    background-color: burlywood;
+
+}
+
+h1::before {
+    content:"Likhon";
+    color: burlywood;
+}
+
+.special-effect::after{
+    content:"Sakhipur";
+    color: chartreuse;
+}
+
+
+body{
+    counter-reset: section;
+}
+ 
+p::before{
+    counter-increment: section;
+    content: "Sabiha" counter(section) ":";
+}
+
+p::before{
+    content: "🔥";
+}
+
+</style>
+
+</head>
+<body>
+    
+<input type="Email" type="text">
+<input type="password" type="text">
+
+
+
+<p>likhon</p>
+<p>likhon</p>
+<p>likhon</p>
+<p>likhon</p>
+<p>likhon</p>
+<p>likhon</p>
+
+
+<a href="https://www.google.com/">Google</a>
+<a href="https://www.youtube.com">Youtube</a>
+<a href="https://www.likhon.com">Likhon</a>
+
+<h1 class="special-effect" >Likhon Ahmed</h1>
+<h1 class="special-effect" >Saqbiha</h1>
+
+<h1>Sabiha</h1>
+<h1>Sabiha</h1>
+<h1>Sabiha</h1>
+<h1>Sabiha</h1>
+
+
+
+</body>
+</html>

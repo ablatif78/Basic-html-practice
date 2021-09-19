@@ -1,0 +1,18 @@
+.pk{
+    border: 1px solid rgb(255, 60, 0) ;
+    border-radius: 30px;
+
+    margin: 1%; 
+
+    width: 30%;        
+    display: inline-block;
+
+
+}
+h2{
+    text-align: center;
+}
+ 
+p{
+    text-align: justify;
+}
